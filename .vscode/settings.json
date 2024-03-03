@@ -52,6 +52,9 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "vector": "cpp",
-        "algorithm": "cpp"
-    }
+        "algorithm": "cpp",
+        "thread": "cpp",
+        "iomanip": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
