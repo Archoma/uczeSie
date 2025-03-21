@@ -1,27 +1,24 @@
-#include <iostream>
-#include <random>
- 
+#include <iostream>  
+#include <iomanip>  
+#include <string>  
 using namespace std;
  
-int losowaLiczba(int min, int max) {
-    random_device rd;
-    mt19937 gen(rd());
-    uniform_int_distribution<> distrib(min, max);
- 
-    return distrib(gen);
+string naodfrut(string zdanie) {
+    string wspak;
+    int len = zdanie.length();
+    for (int i = len - 1; i >= 0; i--)wspak += zdanie[i];
+    return wspak;
 }
  
+ 
+ 
 int main() {
-    int min, max;
+    string zdanie;
+    cout << "Podaj zdanie: ";
+    getline(cin, zdanie);
  
-    cout << "Podaj dolny zakres przedzialu: ";
-    cin >> min;
- 
-    cout << "Podaj gorny zakres przedzialu: ";
-    cin >> max;
- 
-    int losowa = losowaLiczba(min, max);
-    cout << "Wylosowana liczba z przedzialu [" << min << ", " << max << "]: " << losowa << endl;
- 
+    
+    cout << naodfrut(zdanie);
     return 0;
+ 
 }

@@ -54,7 +54,17 @@
         "vector": "cpp",
         "algorithm": "cpp",
         "thread": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "chrono": "cpp",
+        "print": "cpp",
+        "condition_variable": "cpp",
+        "deque": "cpp",
+        "execution": "cpp",
+        "memory": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "stack": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

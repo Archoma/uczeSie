@@ -210,24 +210,24 @@ void InputRead(){
                 char arrow2 = getchar(); // Odczytanie kolejnego znaku (kod strzałki)
                 cout<<arrow1<<endl;
                 // if (arrow1 == '[') { // Sprawdzenie czy to jest kod strzałki
-                //     switch (arrow2) {
-                //         case 'A':
-                //         MyShip.kierunekY = -1; MyShip.kierunekX = 0;
-                //             break;
-                //         case 'B':
-                //             MyShip.kierunekY = 1; MyShip.kierunekX = 0;
-                //             break;
-                //         case 'C':
-                //             MyShip.kierunekX = 1; MyShip.kierunekY = 0;
-                //             break;
-                //         case 'D':
-                //             MyShip.kierunekX = -1; MyShip.kierunekY = 0;
-                //             break;
-                //         default:
+                    switch (arrow2) {
+                        case 'A':
+                        MyShip.kierunekY = -1; MyShip.kierunekX = 0;
+                            break;
+                        case 'B':
+                            MyShip.kierunekY = 1; MyShip.kierunekX = 0;
+                            break;
+                        case 'C':
+                            MyShip.kierunekX = 1; MyShip.kierunekY = 0;
+                            break;
+                        case 'D':
+                            MyShip.kierunekX = -1; MyShip.kierunekY = 0;
+                            break;
+                        default:
                             
-                //             break;
-                //     }
-                // }
+                            break;
+                    }
+                }
             }
         }
    }

@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/arek/Documents/VSC/uczeSie/nowy/prostokat'
+relocations:     []
+...
